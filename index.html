@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+     
     <title>Andrew Lee</title>
 
     <!-- Bootstrap core CSS -->
@@ -52,9 +52,6 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
         </ul>
 
       </div>
@@ -71,16 +68,16 @@
             <a href="mailto:adlee96@uw.edu">adlee96@uw.edu</a>
           </div>
           <p class="lead mb-5">Hello! I am an undergraduate <a href="https://math.washington.edu/">Mathematics</a> student at the <a href="https://www.washington.edu/">University of Washington.</a> I share a deep passion for technology and learning ways to utilize it to help others. <br>
-            I am currently employed as an intern at <a href="https://moxiworks.com/">Moxiworks</a> as a QA software test engineer.
+            I am currently employed at <a href="https://moxiworks.com/">Moxiworks</a> as a software engineer in test intern.
           </p>
           <div class="social-icons">
-            <a href="https://www.linkedin.com/in/andrew-lee-446716137/">
+            <a href="https://www.linkedin.com/in/andrew-lee-446716137/" data-toggle="tooltip" title="Linked-in">
               <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://github.com/anjameke">
+            <a href="https://github.com/anjameke" data-toggle="tooltip" title="Personal Github Profile">
               <i class="fab fa-github"></i>
             </a>
-            <a href="Andrew_Lee_Resume.pdf">  
+            <a href="Andrew_Lee_Resume.pdf" data-toggle="tooltip" title="My Resume">  
                 <i class="fa fa-file-alt"></i>
             </a>
           </div>
@@ -96,7 +93,7 @@
           </h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">QA Software Test Engineer Intern</h3>
+              <h3 class="mb-0">Software Engineer in Test Intern</h3>
               <div class="subheading mb-3">MoxiWorks <a href="https://moxiworks.com/"><img src="img/moxi-works-squarelogo.png" style="margin-left:7px;margin-bottom:7px;"></a></div>  
              <ul>
                 <li>Converted old, legacy Selenium scripts into Katalon Studio using the language Groovy.</li>
@@ -105,7 +102,7 @@
                 <li>Responsible for running automation regression for maintenance and product releases.</li>
                 <li>Wrote API test scripts to bug MoxiWorks' API platform.</li>
                 <li> Wrote SQL queries, pulling information Moxiworks' databases in PostGreSQL and scripts using these queries to verify various front end UI.</li>
-                <li>Reported bugs caught in automation scripts and communicated with developers on those bugs and how best to resolve them.</li>
+                <li>Reported bugs caught in automation scripts and communicated with developers and QA on those bugs and how best to resolve them.</li>
             </ul>
             </div>
             <div class="resume-date text-md-right">
@@ -136,7 +133,7 @@
               <h3 class="mb-0">University of Washington Seattle</h3>
               <div class="subheading mb-3">Bachelor of Arts</div>
               <div>Mathematics</div>
-              <p>GPA: 3.5</p>
+              <p>GPA: 3.5 (Currently working 20 hours a week)</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">September 2014 - Present</span>
@@ -153,27 +150,34 @@
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <div class="subheading mb-3">Programming Languages</div>
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
+              <i data-toggle="tooltip" data-placement="bottom" title="HTML" class="fab fa-html5">
+              </i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
+              <i data-toggle="tooltip" data-placement="bottom" title="CSS"class="fab fa-css3-alt"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
+              <i data-toggle="tooltip" data-placement="bottom" title="Javascript" class="fab fa-js-square"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-java"></i>
+              <i data-toggle="tooltip" data-placement="bottom" title="Java" class="fab fa-java"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-python"></i>
+              <i data-toggle="tooltip" data-placement="bottom" title="Python" class="fab fa-python"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fas fa-database"></i>
+              <i data-toggle="tooltip" data-placement="bottom" title="SQL" class="fas fa-database"></i>
             </li>
-          </ul>      
+          </ul>
+          <div class="subheading mb-3">Notable Courses Taken</div>
+           <ul class=mb=0>
+              <li><a href="https://courses.cs.washington.edu/courses/cse373/17au/">Data Structures and Algorithms</a></li>
+              <li><a href="https://courses.cs.washington.edu/courses/cse414/18sp/">Relational Databases</a></li>
+              <li><a href="https://courses.cs.washington.edu/courses/cse417/18wi/">Practical Algorithms</a></li>
+           </ul>
         </div>
       </section>
 
@@ -182,8 +186,16 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from writing automation scripts, writing small games in Javascript, writing linear programming models in Python, or writing other small projects, I share a deep love for animals. I own a Golden Retriever, Daisy, that I walk with quite frequently.</p>
-          <p class="mb-0">When forced indoors, I resolve into the world of video games. To me, playing video games is a great way to destress and gather some inspiration and ideas on creative gaming features.</p>
+          <p>Apart from writing automation scripts, small games in Javascript, linear programming models in Python, or other small projects, I share a deep love for animals. I own a Golden Retriever, Daisy, that I walk with quite frequently.</p>
+          <p>A collection of candid photos of her can be found <a href="https://www.instagram.com/andrew_lee0827/">here!</a></p>
+          <p class="mb-0">When forced indoors, I resolve into the world of video games. To me, playing video games is a great way to destress and gather some inspiration and ideas on creative gaming features. Some of the current video games that I am playing:
+           <ul>
+              <li class="reddead"><a href="https://www.rockstargames.com/reddeadredemption2/
+">Red Dead Redemption 2</a></li>
+              <li class="overwatch"><a href="https://playoverwatch.com/">Overwatch</a></li>
+              <li><a></a></li>
+           
+           </ul>
         </div>
       </section>
 
@@ -199,7 +211,11 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
-
+    <script>
+          $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+          });
+   </script>
   </body>
 
 </html>

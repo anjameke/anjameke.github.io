@@ -73,14 +73,16 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #63AFE2;
+    
 }
 
 .dev-icons {
   font-size: 3rem;
+  color: #63AFE2;    
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #63AFE2;
+  color: dodgerblue;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -189,4 +191,34 @@ a {
 
 a:hover, a:focus, a:active {
   color: #4783B7;
+}
+
+.tooltip {
+ 
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    
+    /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+div.my-auto li.reddead a {
+   color: red;
+}
+
+div.my-auto li.overwatch a {
+   color: darkorange;
 }

@@ -222,3 +222,14 @@ div.my-auto li.reddead a {
 div.my-auto li.overwatch a {
    color: darkorange;
 }
+
+div.my-auto li.list-inline-item i.groovy img {
+    width: 68px;
+    height: 56px;
+    padding-bottom: 12px;
+    color: rgb(99, 175, 226);
+}
+
+div.my-auto li.list-inline-item i.groovy img:hover {
+    color: dodgerblue;
+}

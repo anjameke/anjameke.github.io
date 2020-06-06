@@ -95,10 +95,18 @@ p.lead {
   outline-color: #d48a6e;
 }
 
+.navbar-nav {
+    padding-left: 65px;
+}
+
+.d-none {
+    padding-bottom: 10px;
+}
+
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
-    position: fixed;
+    text-align: left;
+    position:fixed;
     top: 0;
     left: 0;
     display: -webkit-box;
@@ -232,4 +240,16 @@ div.my-auto li.list-inline-item i.groovy img {
 
 div.my-auto li.list-inline-item i.groovy img:hover {
     color: dodgerblue;
+}
+
+div.my-auto li.list-inline-item i.rails img {
+    width: 85px;
+    height: 85px;
+    padding-bottom: 12px;
+    color: rgb(99, 175, 226);
+}
+
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
 }

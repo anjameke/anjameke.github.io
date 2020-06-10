@@ -24,7 +24,7 @@
     <link href="css/font-mfizz.svg" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet">
-
+    <link href="css/dark-mode.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
@@ -56,6 +56,10 @@
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
               </li>
+              <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+              </div>
           </ul>
       </div>
     </nav>
@@ -266,6 +270,7 @@
           $('[data-toggle="tooltip"]').tooltip();   
           });
    </script>
+    <script src="css/dark-mode-switch.min.js"></script>
   </body>
 
 </html>
